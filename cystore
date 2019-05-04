@@ -42,7 +42,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "1.0.6"
+					"text": "1.1"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -69,7 +69,7 @@
 					"title": "Size",
 					"text": "1.50 Mo"
 				},
-				,				{
+								{
 					"class": "DepictionTableButtonView",
 					"title": "Report",
 					"action": "https:\/\/hqhrepo.github.io\/",
