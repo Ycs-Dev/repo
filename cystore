@@ -117,7 +117,22 @@
 				{
 					"class": "DepictionSpacerView",
 					"spacing": 5
-				}
+				},
+{
+			"class":"DepictionStackView",
+			"tabname":"Changelog",
+			"views":[
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+{
+					"class":"DepictionMarkdownView",
+					"markdown":"Release",
+					"useSpacing":true
+				},
 			]
 		}	],
 	"tintColor": "#000"
