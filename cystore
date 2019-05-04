@@ -1,6 +1,7 @@
 {
 	"class": "DepictionTabView",
 		"minVersion": "0.1",
+"headerImage":"https://raw.githubusercontent.com/hqhrepo/hqhrepo.github.io/master/image/DA4B3FD9-627F-43D6-BD00-D723BECC4ED2.jpeg",
 	"tabs": [
 		{
 			"class": "DepictionStackView",
