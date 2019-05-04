@@ -4,7 +4,7 @@
 	"tabs": [
 		{
 			"class": "DepictionStackView",
-			"tabname": "Description",
+			"tabname": "Details",
 			"views": [
 				{
 					"class": "DepictionAdMobVied",
@@ -132,7 +132,7 @@
 					"class":"DepictionMarkdownView",
 					"markdown":"Release",
 					"useSpacing":true
-				},
+				}
 			]
 		}	],
 	"tintColor": "#000"
