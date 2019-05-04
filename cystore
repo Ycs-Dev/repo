@@ -1,139 +1,71 @@
+
 {
-	"class": "DepictionTabView",
-		"minVersion": "0.1",
-	"tabs": [
+	"class":"DepictionTabView",
+	"minVersion":"0.3",
+	"headerImage":"https://raw.githubusercontent.com/hqhrepo/hqhrepo.github.io/master/image/DA4B3FD9-627F-43D6-BD00-D723BECC4ED2.jpeg",
+	"tintColor":"#000",
+	"tabs":[
 		{
-			"class": "DepictionStackView",
-			"tabname": "Details",
-			"views": [
+			"class":"DepictionStackView",
+			"tabname":"Details",
+			"views":[
 				{
-					"class": "DepictionAdMobVied",
-					"adUnitID": "ca-app-pub-3311256030609661/6613466816",
-					"adSize": "Banner"
-				},
-				{
-					"class": "DepictionSeparatorView"
-				},				{
-					"class": "DepictionRatingView",
-					"rating": 0,
-					"alignment": 1
-				},
-								{
-					"class": "DepictionTableButtonView",
-					"title": "Website Repo",
-					"action": "https:\/\/hqhrepo.github.io\/pack\/cystore.html",
-					"openExternal": 1
-				},								{
-					"class": "DepictionSeparatorView"
+					"class":"DepictionMarkdownView",
+					"markdown":"CyStore là một trình cài đặt dựa trên nền tảng Cydia và kết hợp giao diện hiện đại.",
+					"useSpacing":true
 				},
 				{
-					"class": "DepictionMarkdownView",
-					"markdown": "CyStore is a very basic package manager for unlocked iOS devices.",
-					"useRawFormat": true
+				    "class":"DepictionImageView",
+				    "URL":"https://coolstar.moe/sileoassets/depictions/assets/org.coolstar.anemone3-top-draft.png",
+				    "width":539,
+				    "height":360,
+				    "horizontalPadding":30,
+				    "cornerRadius":0,
+				    "alignment":1
 				},
 				{
-					"class": "DepictionSeparatorView"
+					"class":"DepictionMarkdownView",
+					"markdown":"#### Native and Modern\n\ Mục tiêu của chúng tôi là trao quyền cho những người muốn mang lại khả năng sử dụng thực sự cho các thiết bị của họ, những người không muốn thể hiện bản thân thông qua công nghệ. \n\ CyStore là Trình quản lý gói APT nhanh, đẹp, mạnh mẽ và hiệu quả được thiết kế cho các thiết bị đã bẻ khóa chạy iOS 12 trở lên, tập trung vào việc cập nhật và quan trọng nhất là đáng tin cậy.",
+					"useSpacing":true
+				},
+				
+				
+				{
+					"class":"DepictionSeparatorView"
 				},
 				{
-					"class": "DepictionTableTextView",
-					"title": "Date",
-					"text": "2019-05-05"
+					"class":"DepictionHeaderView",
+					"title":"Information"
 				},
 				{
-					"class": "DepictionTableTextView",
-					"title": "Version",
-					"text": "1.1"
+					"class":"DepictionTableTextView",
+					"text":"2019-05-05",
+					"title":"Updated"
 				},
 				{
-					"class": "DepictionTableTextView",
-					"title": "Author",
-					"text": "YcS_Dev & Wilson Styres"
-				},
-				{
-					"class": "DepictionTableTextView",
-					"title": "Section",
-					"text": "Packaging"
-				},
-				{
-					"class": "DepictionTableTextView",
-					"title": "Price",
-					"text": "Free"
-				},
-								{
-					"class": "DepictionTableTextView",
-					"title": "T\u1ea3i v\u1ec1",
-					"text": "Coming Soon"
-				},
-				{
-					"class": "DepictionTableTextView",
-					"title": "Size",
-					"text": "1.50 Mo"
-				},
-								{
-					"class": "DepictionTableButtonView",
-					"title": "Report",
-					"action": "https:\/\/hqhrepo.github.io\/",
-					"openExternal": 1
-				},
-				{
-					"class": "DepictionSeparatorView"
-				},
-				{
-					"class": "DepictionTableButtonView",
-					"title": "Follow YcS_Dev on Twitter",
-					"action": "twitter:\/\/user?screen_name=YcS_Dev",
-					"backupAction": "https:\/\/twitter.com\/Ycs_Dev",
-					"openExternal": 1
-				},
-				{
-					"class": "DepictionTableButtonView",
-					"title": "Like HQH_Repo on Facebook",
-					"action": "fb:\/\/profile\/HQHRepo/",
-					"backupAction": "https:\/\/www.facebook.com\/HQHRepo/",
-					"openExternal": 1
-				},
-				{
-					"class": "DepictionSeparatorView"
-				},				{
-					"class": "DepictionTableButtonView",
-					"title": "Follow HQH_Repo  on Twitter",
-					"action": "twitter:\/\/user?screen_name=HQHrepo",
-					"backupAction": "https:\/\/twitter.com\/HQHrepo",
-					"openExternal": 1
-				},								{
-					"class": "DepictionSeparatorView"
-				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 5
-				},
-				{
-					"class": "DepictionImageView",
-					"alignment": 1,
-					"cornerRadius": 0,
-					"height": 40,
-					"width": 40,
-					"URL": "https:\/\/hqhrepo.github.io\/CydiaIcon.png"				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 5
-				},
-{
+					"class":"DepictionTableTextView",
+					"text":"Free Package",
+					"title":"License"
+				}
+			]
+		},
+		{
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+			   
 			    {
 					"class":"DepictionSubheaderView",
 					"title":"1.0",
 					"useBoldText":true,
 					"useBottomMargin":false
 				},
-{
+				{
 					"class":"DepictionMarkdownView",
-					"markdown":"Release",
+					"markdown":"Initial Public Release!",
 					"useSpacing":true
 				}
 			]
-		}	],
-	"tintColor": "#000"
-}
+		}
+	]
+}i
