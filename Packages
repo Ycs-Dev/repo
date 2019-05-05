@@ -1,0 +1,39 @@
+Architecture: iphoneos-arm
+Package: com.ycs.cystore
+Name: CyStore
+Version: 1.0
+Description: CyStore is a very basic package manager for unlocked iOS devices.
+Author: YcS_Dev & Wilson Styres <adesign749@gmail.com>
+Section: Packaging
+Depends: dpkg
+Size: 1533040
+Md5sum: 88667e0c19022a2e86fc68a206cf8c9c
+SHA1: 495a233bb96c88a28dfb79b2cc5f5da7ee1f68de
+SHA256: d910887500e151038fbe8aee2c4899e66df6a216a62281f0b9983fbc158fbd79
+Tag: purpose::extension
+Depiction: https://hqhrepo.github.io/dt/cystore
+SileoDepiction: https://hqhrepo.github.io/dt/cystore
+Filename: debs/com.ycs.cystore_1.0_iphoneos-arm.deb
+Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
+
+Package: org.coolstar.sileo
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
+Conflicts: cydia-gui
+Filename: debs/org.coolstar.sileo_1.0.6_iphoneos-arm.deb
+Size: 2096212
+MD5sum: 1d41c8c61e5e85e43c7517f7046af223
+SHA1: fd629c6d82d27304ea4d5b2138245d60135d4747
+SHA256: e102a5a17403660fd1ca1acc57b177eee8197beab5e6254342e1108a837e60c2
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo (Beta)
+Sileodepiction: https://hqhrepo.github.io/dt/sileo
+
