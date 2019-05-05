@@ -88,17 +88,18 @@
 					"useBoldText":true,
 					"useBottomMargin":false
 				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add Vietnamese translation",
+					"useSpacing":true
+				},
 			    {
 					"class":"DepictionSubheaderView",
 					"title":"1.0.5",
 					"useBoldText":true,
 					"useBottomMargin":false
 				},
-				{
-					"class":"DepictionMarkdownView",
-					"markdown":"1. Add Vietnamese translation",
-					"useSpacing":true
-				},
+				
 				{
 					"class":"DepictionMarkdownView",
 					"markdown":"1. Packix is now a default repo\n2. Fix a crash that would occur after a user deleted a repo",
