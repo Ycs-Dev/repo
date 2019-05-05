@@ -68,7 +68,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"May 3, 2019",
+					"text":"May 5, 2019",
 					"title":"Updated"
 				},
 				{
@@ -90,7 +90,7 @@
 				},
 				{
 					"class":"DepictionMarkdownView",
-					"markdown":"1. Add Vietnamese translation",
+					"markdown":"1. Add Vietnamese translation\n2. Add Repo HQH_Repo",
 					"useSpacing":true
 				},
 			    {
