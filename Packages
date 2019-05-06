@@ -41,15 +41,16 @@ Package: cydia-dark
 Version: 1.9.3~chimera
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 13600
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1591286
-MD5sum: de08770425ea36b93dbd3fa0715fce45
-SHA1: 95737d0a663eba2e1a0260934c74aaa1b16637184
-SHA256: f3be4e8aced5016ce1b9105540702296dda8052287fd1e8941b5ba6bd538fd1d
+Size: 1591716
+MD5sum: 8882ee76d82827c241b117edaeeb58e9
+SHA1: 9010e073929b317404d4b5f7d67599cb745ca653
+SHA256: a916f4bbcb65357fea941b09cacb8292ef6edba5c93702a7767dc49e954ef557
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
@@ -88,7 +89,7 @@ Architecture: all
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 48
 Replaces: cydia, bigboss
-Filename: debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
+Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
 Size: 11530
 MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
 SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
