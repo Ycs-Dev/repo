@@ -89,7 +89,7 @@ Architecture: all
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 48
 Replaces: cydia, bigboss
-Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
+Filename: debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
 Size: 11530
 MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
 SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
