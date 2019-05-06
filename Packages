@@ -57,7 +57,7 @@ Author: zLabs Team
 Depiction: http://cydia.saurik.com/info/cydia/
 SileoDepiction: https://hqhrepo.github.io/dt/cydia
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Electra/Chimera
+Name: Cydia  Electra/Chimera
 
 Package: cydia-lproj
 Version: 1.9.3~chimera
