@@ -38,7 +38,7 @@ Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
 
 Package: cydia-dark
-Version: 1.9.3~chimera
+Version: 1.9.4~chimera
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
@@ -57,7 +57,7 @@ Author: zLabs Team
 Depiction: http://cydia.saurik.com/info/cydia/
 SileoDepiction: https://hqhrepo.github.io/dt/cydia
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia  Electra/Chimera
+Name: Cydia Electra/Chimera
 
 Package: cydia-lproj
 Version: 1.9.3~chimera
