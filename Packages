@@ -37,3 +37,67 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
 
+Package: cydia-dark
+Version: 1.9.3~chimera
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 13600
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
+Size: 1591716
+MD5sum: 8882ee76d82827c241b117edaeeb58e9
+SHA1: 9010e073929b317404d4b5f7d67599cb745ca653
+SHA256: a916f4bbcb65357fea941b09cacb8292ef6edba5c93702a7767dc49e954ef557
+Section: Packaging
+Priority: optional
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: zLabs Team
+Depiction: http://cydia.saurik.com/info/cydia/
+SileoDepiction: https://hqhrepo.github.io/dt/cydia
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia  Electra/Chimera
+
+Package: cydia-lproj
+Version: 1.9.3~chimera
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: debs/cydia-lproj_1.9.3~chimera_iphoneos-arm.deb
+Size: 66928
+MD5sum: 423198b6e4ace8c6dbe7735eb337ded3
+SHA1: 1937bd69e0839ad43c74a965bc76fa27993be917
+SHA256: 0ba35ddb14c1876e3afa1f968cf670fffe4504f249fbe8fcf988b5e4551be9f7
+Section: Packaging
+Priority: required
+Description: languages and translations for Cydia
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Name: Cydia Translations
+
+Package: org.thebigboss.repo.icons
+Version: 1.0
+Architecture: all
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
+Size: 11530
+MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
+SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
+SHA256: 826001ef4cf513d9f49f3a8ac142addb9ca586bbad6c1410c7921f509901ee4e
+Section: Repositories
+Priority: optional
+Multi-Arch: foreign
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+
+
