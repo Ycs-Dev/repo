@@ -47,7 +47,7 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1591716
+Size: 1591286
 MD5sum: de08770425ea36b93dbd3fa0715fce45
 SHA1: 95737d0a663eba2e1a0260934c74aaa1b16637184
 SHA256: f3be4e8aced5016ce1b9105540702296dda8052287fd1e8941b5ba6bd538fd1d
