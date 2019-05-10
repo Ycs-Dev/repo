@@ -18,17 +18,17 @@ Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
 
 Package: org.coolstar.sileo
-Version: 1.0.6
+Version: 1.0.7~beta
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui
-Filename: debs/org.coolstar.sileo_1.0.6_iphoneos-arm.deb
-Size: 2096212
-MD5sum: 1d41c8c61e5e85e43c7517f7046af223
-SHA1: fd629c6d82d27304ea4d5b2138245d60135d4747
-SHA256: e102a5a17403660fd1ca1acc57b177eee8197beab5e6254342e1108a837e60c2
+Filename: debs/org.coolstar.sileo_1.0.7~beta_iphoneos-arm.deb
+Size: 2112892
+MD5sum: 887eff9ab55cec1b9aa9d18416b90332
+SHA1: b15fd370df74ed8c0c2ae060b5daed1d53509aa7
+SHA256: ef9998af09527ec8a777bdb8e87d97b3a30c02a218287481551580c94e68afb0
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -37,8 +37,8 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
 
-Package: cydia-dark
-Version: 1.9.3~chimera
+Package: cydia-chimera
+Version: 1.9.4~chimera
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 13600
@@ -46,11 +46,11 @@ Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
+Filename: debs/cydia-dark_1.9.4~chimera_iphoneos-arm.deb
 Size: 1591716
-MD5sum: 8882ee76d82827c241b117edaeeb58e9
-SHA1: 9010e073929b317404d4b5f7d67599cb745ca653
-SHA256: a916f4bbcb65357fea941b09cacb8292ef6edba5c93702a7767dc49e954ef557
+MD5sum: 2b7bd6a1426d1bc4b132b8b0816c321d
+SHA1: 474dcbfa0ce4c2177607d406989418ee0f23155f
+SHA256: 91f50cc80da58dcefdbfa937aedffc22ccd84e478b368d1d771ff3ff30b7b0ff
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
@@ -89,7 +89,7 @@ Architecture: all
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 48
 Replaces: cydia, bigboss
-Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
+Filename: debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
 Size: 11530
 MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
 SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
@@ -100,4 +100,19 @@ Multi-Arch: foreign
 Description: locally cached package icons from BigBoss
 Name: BigBoss Icon Set
 
-
+Package: com.ycs.ydiagui
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: YcS_Dev 
+Depends: dpkg
+Filename: debs/com.ycsdev.cydiagui_0.1_iphoneos-arm.deb
+Size: 26080
+MD5sum: 9d2995ff8344b0abe478ccddf973e3b9
+SHA1: 8708e0bf579af799f4b506e381cd027c60101e8f
+SHA256: 0883b3bf4d057879823c6a36cd2ec7df28f6cd939c5b370eddd6e5880b11b55e3
+Section: Packaging
+Priority: optional
+Description: Gui cydia new
+Author: YcS_Dev
+Depiction: https://hqhrepo.github.io/dt/cydiagui
+Name: Cydia GUI
