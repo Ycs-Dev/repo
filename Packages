@@ -6,9 +6,9 @@ Installed-Size: 1056
 Pre-Depends: dpkg (>= 1.14.25-8)
 Filename: debs/rsync_4.0_iphoneos-arm.deb
 Size: 204536
-MD5sum: b2dd5ce3b38d3dda17367f88d7e37b2d
-SHA1: 7caf0f654bbb562baba0bc8100c38b55ae29fbf8
-SHA256: 7b9442cc2b4b633103437f9eb2293d3d2aade68a836f808aea9aa2fb143ce69b
+MD5sum: 1878d105f6814850e2f7ea783313b069
+SHA1: d5e887ba9ff7a39e1236f4bdfc0de66c3d1b7159
+SHA256: 116f308a0dd3b8fbd684a29803b67aeeb5f4e8386f407b69e5100f1f71c82b32
 Section: Networking
 Priority: important
 Homepage: https://hqhrepo.github.io/rsync.html
