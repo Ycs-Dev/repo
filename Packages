@@ -1,3 +1,41 @@
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta14
+Architecture: iphoneos-arm
+Maintainer: HqH_Repo
+Depends: firmware (>=11.0), vn.ycs.substitute, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: https://repo.chimera.sh/debs/com.anemonetheming.anemone3_3.0~beta14_iphoneos-arm.deb
+Size: 664004
+MD5sum: 42eb633021491ed03814d55700cc0a18
+SHA1: 63df82994ef1fe7ca0d15dda806395148340b87d
+SHA256: 4cd2400cbc5e6665eb8a4b338820204e2677375ff26f62d728e6d49ed3c4c18b
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3 All Jb
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
+
+Package: vn.ycs.substituted
+Version: 1.1
+Section: Tweaks
+Maintainer: YcS_Dev
+Provides: org.coolstar.tweakinject, com.ex.libsubstitute
+Replaces: org.coolstar.tweakinject, com.ex.libsubstitute
+Architecture: iphoneos-arm
+Filename: ./debs/vn.ycs.substituted_1.1.deb
+Size: 6374
+Description: hộ trợ các tweak độc quyền trên Electra/Chimera
+Name: Substitute
+Author: Jake James <jakeashacks@gmail.com>
+Sileodepiction: http://hqhrepo.github.io/dt/subtituted
+Icon: file:///Applications/Cydia.app/Sections/System.png
+MD5sum: 96b918377bd2848e0041e792a82c9668
+SHA1: 0c076387eb105ee635a376692922b4a875462f59
+SHA256: a7684ddfc521f00da649d38257f0d3fb7be1f9e754c5bc78b7c1ee2f11f6103d
+
 Package: rsync
 Version: 4.0
 Architecture: iphoneos-arm
@@ -17,27 +55,6 @@ Description: synchronize files between computers
 Name: Rsync+
 Tag: purpose::console, role::hacker
 
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.7~beta6
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 800
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: debs/com.rpetrich.rocketbootstrap_1.0.7~beta6_iphoneos-arm.deb
-Size: 38092
-MD5sum: ab0e73618e036527006b6210745024c8
-SHA1: 61bee99377319088d721bac8f48e46a374bc1d1c
-SHA256: 32df0162ba77a021ff8fd4019fefd6be820242adac40d15b3b0f4bd713df8609
-Section: Tweaks
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Dev: rpetrich
-Name: RocketBootstrap
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Architecture: iphoneos-arm
 Package: com.ycs.cystore
 Name: CyStore
@@ -56,20 +73,3 @@ SileoDepiction: https://hqhrepo.github.io/dt/cystore
 Filename: https://hqhrepo.github.io/debs/com.ycs.cystore_1.0_iphoneos-arm.deb
 Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
-
-Package: com.ycs.ydiagui
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: YcS_Dev 
-Depends: dpkg
-Filename: https://hqhrepo.github.io/debs/com.ycsdev.cydiagui_0.1_iphoneos-arm.deb
-Size: 26080
-MD5sum: 9d2995ff8344b0abe478ccddf973e3b9
-SHA1: 8708e0bf579af799f4b506e381cd027c60101e8f
-SHA256: 0883b3bf4d057879823c6a36cd2ec7df28f6cd939c5b370eddd6e5880b11b55e3
-Section: Packaging
-Priority: optional
-Description: Gui cydia new
-Author: YcS_Dev
-Depiction: https://hqhrepo.github.io/dt/cydiagui
-Name: Cydia GUI
