@@ -1,16 +1,16 @@
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta14
+Version: 3.0
 Architecture: iphoneos-arm
 Maintainer: HqH_Repo
-Depends: firmware (>=11.0), org.coolstar.tweakinject, vn.ycs.substituted, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Depends: firmware (>=11.0), org.coolstar.tweakinject, vn.hqh.libsubstitute, pincrush, org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: ./debs/com.anemonetheming.anemone3_3.0~beta14_iphoneos-arm.deb
-Size: 664004
-MD5sum: 42eb633021491ed03814d55700cc0a18
-SHA1: 63df82994ef1fe7ca0d15dda806395148340b87d
-SHA256: 4cd2400cbc5e6665eb8a4b338820204e2677375ff26f62d728e6d49ed3c4c18b
+Filename: ./debs/com.anemonetheming.anemone3_3.0_iphoneos-arm.deb
+Size: 799910
+MD5sum: bae6abdcbd7c2bae694a2513a102a79b
+SHA1: 9878aa322e5e461fe0940002bd229f96227c354e
+SHA256: 8f77c7f58fd6412bd42944caea906c676c50f2f7b1e192ea978e4b86a852cdd0
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -18,23 +18,23 @@ Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
 Name: Anemone 3 All Jb
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
-Package: vn.ycs.substituted
-Version: 1.1
+Package: vn.hqh.libsubstitute
+Version: 2.0
 Section: Tweaks
-Maintainer: YcS_Dev
+Maintainer: HqH_Repo Team
 Provides: org.coolstar.tweakinject, com.ex.libsubstitute
 Replaces: org.coolstar.tweakinject, com.ex.libsubstitute
 Architecture: iphoneos-arm
-Filename: ./debs/vn.ycs.substituted_1.1.deb
-Size: 6374
-Description: hộ trợ các tweak độc quyền trên Electra/Chimera
+Filename: ./debs/vn.hqh.libsubstitute_2.0.deb
+Size: 6350
+Description: hộ trợ các tweak độc quyền trên Electra/Chimera. phiên bản 2.0 được làm lại cho ổn định và  sẽ cập nhật các tweak khác.)
 Name: Substitute
-Author: Jake James <jakeashacks@gmail.com>
+Author: HqH_Repo Team
 Sileodepiction: http://hqhrepo.github.io/dt/subtituted
 Icon: file:///Applications/Cydia.app/Sections/System.png
-MD5sum: 96b918377bd2848e0041e792a82c9668
-SHA1: 0c076387eb105ee635a376692922b4a875462f59
-SHA256: a7684ddfc521f00da649d38257f0d3fb7be1f9e754c5bc78b7c1ee2f11f6103d
+MD5sum: 681067ba3585a967b0ab77616ed34e88
+SHA1: 9b7950c71728796fe3041e8a29852ca5f46606b7
+SHA256: d1d297eae2053eab7a2dc8de53b77b4605e721e723ab8669a2471491ec120e60
 
 Package: rsync
 Version: 4.0
