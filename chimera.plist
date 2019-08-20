@@ -2,48 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
-	<array>
-		<dict>
-			<key>assets</key>
-			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string> https://doc-0o-04-docs.googleusercontent.com/docs/securesc/kb4inod1dlfojfb5trnol9ceu0rfob6i/dg6h3f8m0n58gtfkh84aic1u4jkm8mrv/1566309600000/06253068021992094899/06253068021992094899/1qpbPk3GRrh9PqI_44_5KcKdkbMmwnKrm?e=download&nonce=ktkh8thhi0nva&user=06253068021992094899&hash=77eg519iivbbaqirvsdoentph1ip2b66 </string>
-				</dict>
-				<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
                     <key>kind</key>
-                    <string>display-image</string>
-                    <key>needs-shine</key>
-                    <false/>
+                    <string>software-package</string>
                     <key>url</key>
-                    <string> https://chimera.sh/img/icon.png </string>
-	            </dict>
-	            <dict>
-	                <key>kind</key>
-	                <string>full-size-image</string>
-	                <key>needs-shine</key>
-	                <false/>
-	                <key>url</key>
-	                <string> https://chimera.sh/img/icon.png </string>
-	            </dict>
-			</array>
-			<key>metadata</key>
-			<dict>
-				<key>bundle-identifier</key>
-				<string>fun.ignition.Chimera</string>
-				<key>bundle-version</key>
-				<string>420.4.20</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>subtitle</key>
-                <string>HqH_Repo</string>
-				<key>title</key>
-				<string>Chimera</string>
-			</dict>
-		</dict>
-	</array>
+                    <string>https://doc-0o-04-docs.googleusercontent.com/docs/securesc/kb4inod1dlfojfb5trnol9ceu0rfob6i/dg6h3f8m0n58gtfkh84aic1u4jkm8mrv/1566309600000/06253068021992094899/06253068021992094899/1qpbPk3GRrh9PqI_44_5KcKdkbMmwnKrm?e=download</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string> fun.ignition.Chimera </string>
+                <key>bundle-version</key>
+                <string> 420.4.20 </string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Chimera</string>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
