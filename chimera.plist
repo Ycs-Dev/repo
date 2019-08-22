@@ -11,15 +11,15 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://doc-0o-04-docs.googleusercontent.com/docs/securesc/kb4inod1dlfojfb5trnol9ceu0rfob6i/dg6h3f8m0n58gtfkh84aic1u4jkm8mrv/1566309600000/06253068021992094899/06253068021992094899/1qpbPk3GRrh9PqI_44_5KcKdkbMmwnKrm?e=download</string>
+                    <string>https://cdn.dlninja.com/c42/chimera2.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string> fun.ignition.Chimera </string>
+                <string>com.electrateam.chimera</string>
                 <key>bundle-version</key>
-                <string> 420.4.20 </string>
+                <string>1.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
