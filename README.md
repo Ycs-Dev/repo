@@ -1,1 +1,0 @@
-# hqhrepo.github.io
