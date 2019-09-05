@@ -43,7 +43,7 @@ Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
-Filename: debs/com.hqhteam.sileo_1.0.5_iphoneos-arm.deb
+Filename: debs/com.hqhteam.sileo_1.0.6_iphoneos-arm.deb
 Size: 2526
 MD5sum: 656f26c38232c9f9a88d81544e13c2c8
 SHA1: 4c5ff5ad413e92f178bed43069ea8e760c77233e
