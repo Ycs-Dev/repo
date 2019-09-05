@@ -113,18 +113,18 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
 
-Package: sileo-uncover
+Package: com.hqhteam.sileo
 Version: 1.0.3
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
-Filename: debs/sileouncover.deb
-Size: 2476
-MD5sum: 010aca147fa2b386988ae8bb80fded50
-SHA1: 8e0b8b8c74f881d1f7530a9232994ed77e821952
-SHA256: e2922b795dbda7569df341467dbab5815c4c8a4645d0ae33a7a1289472620a28
+Filename: debs/com.hqhteam.sileo_1.0.4_iphoneos-arm.deb
+Size: 2458
+MD5sum: da124296702a44ef10a22cb3dc4aed94
+SHA1: 8abd62ef34c8134a1fcf0f8df883afeb94eb1c89
+SHA256: 6b9280fe75f8c7e6460a1d73026a94cbfa9efb503b2caf4667a5648dc3725b15
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: Sileo Unc0ver
