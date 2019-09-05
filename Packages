@@ -117,9 +117,7 @@ Package: sileo-uncover
 Version: 1.0
 Section: Utilities
 Maintainer: HqH_Team
-Depends: curl, gawk, sillyo3
-Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
-Replaces: com.level3tjg.sileofix
+Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Architecture: iphoneos-arm
 Filename: debs/sileouncover.deb
 Size: 2572
