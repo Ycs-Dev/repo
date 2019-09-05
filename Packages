@@ -121,10 +121,10 @@ Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
 Filename: debs/sileouncover.deb
-Size: 2482
-MD5sum: ac0b4cd902c11df071654ff893da5774
+Size: 2476
+MD5sum: 010aca147fa2b386988ae8bb80fded50
 SHA1: 8e0b8b8c74f881d1f7530a9232994ed77e821952
-SHA256: 4845da48705d141f388bd0869b21fc167da8621f24b5cf6d7c912870a85c6ded
+SHA256: e2922b795dbda7569df341467dbab5815c4c8a4645d0ae33a7a1289472620a28
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: Sileo Unc0ver
