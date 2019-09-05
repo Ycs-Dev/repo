@@ -114,7 +114,7 @@ Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
 
 Package: com.hqhteam.sileo
-Version: 1.0.3
+Version: 1.0.4
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
