@@ -1,3 +1,24 @@
+Package: org.coolstar.sileo
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+ Depends: cy+cpu.arm64, firmware(>=12.0)
+ Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileo_1.4.1_iphoneos-arm.deb
+Size: 3658548
+MD5sum: a7246ff454dc140c9f6454f389cd8ecc
+SHA1: 4aecfd57b3e54c4e46f8ceadad0ce7ee3bccf8ec
+SHA256: 1594474db76c29b335356f94cd3afbb8567c00650abece6c3150f36159ebaf87
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Sileodepiction: https://hqhrepo.github.io/dt/sileo
+
+
 Package: com.anemonetheming.anemone3
 Version: 3.0
 Architecture: iphoneos-arm
@@ -93,38 +114,18 @@ Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
 Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
 
-Package: org.coolstar.sileo
-Version: 1.0.8~beta
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
-Conflicts: cydia-gui
-Filename: debs/org.coolstar.sileo_1.0.8~beta_iphoneos-arm.deb
-Size: 2097672
-MD5sum: 6c62e8e9bc0e67a3bc9296f0f82c932c
-SHA1: b3f5839377d942abae2ebb180e38d3fa9a7a9bef
-SHA256: 1eb6bdc3484ab2ea6e21ef5850327df4d68827b001adafaa46c22d9a7d2490d4
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo (Beta)
-Sileodepiction: https://hqhrepo.github.io/dt/sileo
-
 Package: com.hqhteam.sileo
-Version: 1.0.4
+Version: 1.0.5
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
-Filename: debs/com.hqhteam.sileo_1.0.4_iphoneos-arm.deb
-Size: 2458
-MD5sum: da124296702a44ef10a22cb3dc4aed94
-SHA1: 8abd62ef34c8134a1fcf0f8df883afeb94eb1c89
-SHA256: 6b9280fe75f8c7e6460a1d73026a94cbfa9efb503b2caf4667a5648dc3725b15
+Filename: debs/com.hqhteam.sileo_1.0.5_iphoneos-arm.deb
+Size: 2482
+MD5sum: b13f50310d86c8ac1f152284825fae80
+SHA1: 006ed14273369d1a28ffce33885b52c7708bfdfb
+SHA256: 7d15db6711e3af69d44ba40cd216eb189db667223721b07262b1bfe4294308f5
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: Sileo Unc0ver
