@@ -92,3 +92,41 @@ Author: AnemoneTeam <anemonetheming@gmail.com>
 Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
 Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
+
+Package: org.coolstar.sileo
+Version: 1.0.8~beta
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
+Conflicts: cydia-gui
+Filename: debs/org.coolstar.sileo_1.0.8~beta_iphoneos-arm.deb
+Size: 2097672
+MD5sum: 6c62e8e9bc0e67a3bc9296f0f82c932c
+SHA1: b3f5839377d942abae2ebb180e38d3fa9a7a9bef
+SHA256: 1eb6bdc3484ab2ea6e21ef5850327df4d68827b001adafaa46c22d9a7d2490d4
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo (Beta)
+Sileodepiction: https://hqhrepo.github.io/dt/sileo
+
+Package: sileo-uncover
+Version: 1.0
+Section: Utilities
+Maintainer: HqH_Team
+Depends: curl, gawk, sillyo3
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
+Replaces: com.level3tjg.sileofix
+Architecture: iphoneos-arm
+Filename: debs/sileouncover.deb
+Size: 2572
+MD5sum: c86e730893d17d91eb4dd36625d5474c
+SHA1: 95dc43db3ae9aa772b6768c4a5ecf3e2a1afd2fd
+SHA256: 01e1dd23696af6abe57873ac8e7d9ca195c80ce2a3a8fc83427e371282e59261
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
+Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
+Name: Sileo Unc0ver
+Author: YcS_Dev
