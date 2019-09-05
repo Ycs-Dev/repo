@@ -48,7 +48,24 @@ Size: 2526
 MD5sum: 656f26c38232c9f9a88d81544e13c2c8
 SHA1: 4c5ff5ad413e92f178bed43069ea8e760c77233e
 SHA256: bdc958b9863c63fc28399aa3910d3a8492fcdc9a2dbf274d1cfbc0d4231c7f47
-Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: Sileo Unc0ver
+Author: YcS_Dev
+
+Package: com.hqhteam.sileothor
+Version: 1.0~beta
+Section: Utilities
+Maintainer: HqH_Team
+Depends: org.swift.libswift (>=5.0), zsh, curl, wget
+Conflicts: com.thuthuatjb.sileou0
+Architecture: iphoneos-arm
+Filename: debs/com.hqhteam.sileo_1.0~beta_iphoneos-arm.deb
+Size: 2428
+MD5sum: 2e1951a8618133078c8c882becb865da
+SHA1: d061078bbb61519cad55c3794c21f53a558292b9
+SHA256: e0125f53c26686eb31aad9d90f1c73f72aec0b628ce3728d60b8468d37f2678c
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoThor' qua SSH hoặc MTerminal để cài đặt.
+Sileodepiction: https://hqhrepo.github.io/dt/sileothor
+Name: Sileo Thor
 Author: YcS_Dev
