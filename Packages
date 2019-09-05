@@ -1,62 +1,3 @@
-Package: org.coolstar.sileo
-Version: 1.4.1
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
- Depends: cy+cpu.arm64, firmware(>=12.0)
- Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.4.1_iphoneos-arm.deb
-Size: 3658548
-MD5sum: a7246ff454dc140c9f6454f389cd8ecc
-SHA1: 4aecfd57b3e54c4e46f8ceadad0ce7ee3bccf8ec
-SHA256: 1594474db76c29b335356f94cd3afbb8567c00650abece6c3150f36159ebaf87
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo
-Sileodepiction: https://hqhrepo.github.io/dt/sileo
-
-
-Package: com.anemonetheming.anemone3
-Version: 3.0
-Architecture: iphoneos-arm
-Maintainer: HqH_Repo
-Depends: firmware (>=11.0), org.coolstar.tweakinject, vn.hqh.libsubstitute, pincrush, org.swift.libswift (>=5.0)
-Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: ./debs/com.anemonetheming.anemone3_3.0_iphoneos-arm.deb
-Size: 799910
-MD5sum: bae6abdcbd7c2bae694a2513a102a79b
-SHA1: 9878aa322e5e461fe0940002bd229f96227c354e
-SHA256: 8f77c7f58fd6412bd42944caea906c676c50f2f7b1e192ea978e4b86a852cdd0
-Section: Tweaks
-Description: An awesome theme manager!
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
-Name: Anemone 3 All Jb
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
-
-Package: vn.hqh.libsubstitute
-Version: 2.0
-Section: Tweaks
-Maintainer: HqH_Repo Team
-Provides: org.coolstar.tweakinject, com.ex.libsubstitute
-Replaces: org.coolstar.tweakinject, com.ex.libsubstitute
-Architecture: iphoneos-arm
-Filename: ./debs/vn.hqh.libsubstitute_2.0.deb
-Size: 6350
-Description: hộ trợ các tweak độc quyền trên Electra/Chimera. phiên bản 2.0 được làm lại cho ổn định và  sẽ cập nhật các tweak khác.)
-Name: Substitute
-Author: HqH_Repo Team
-Sileodepiction: http://hqhrepo.github.io/dt/subtituted
-Icon: file:///Applications/Cydia.app/Sections/System.png
-MD5sum: 681067ba3585a967b0ab77616ed34e88
-SHA1: 9b7950c71728796fe3041e8a29852ca5f46606b7
-SHA256: d1d297eae2053eab7a2dc8de53b77b4605e721e723ab8669a2471491ec120e60
-
 Package: rsync
 Version: 4.0
 Architecture: iphoneos-arm
@@ -95,37 +36,18 @@ Filename: https://hqhrepo.github.io/debs/com.ycs.cystore_1.0_iphoneos-arm.deb
 Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
 
-Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta8
-Architecture: iphoneos-arm
-Maintainer: AnemoneTeam <anemonetheming@gmail.com>
-Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
-Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
-Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta8_iphoneos-arm.deb
-Size: 64998
-MD5sum: 5e684c7087ef1ce9aa2b0cbe82d851cb
-SHA1: 7e96e2b4f01a58db3207e02183e44274f7a5f767
-SHA256: 037492657bc4c9d13e9369091236d9c66efddbd1e012785c32ac559f019f3c09
-Section: Tweaks
-Description: An awesome theme manager!
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
-Name: Anemone 3 SpringBoard Extension Pack
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
-
 Package: com.hqhteam.sileo
-Version: 1.0.5
+Version: 1.0.6
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
 Filename: debs/com.hqhteam.sileo_1.0.5_iphoneos-arm.deb
-Size: 2482
-MD5sum: b13f50310d86c8ac1f152284825fae80
-SHA1: 006ed14273369d1a28ffce33885b52c7708bfdfb
-SHA256: 7d15db6711e3af69d44ba40cd216eb189db667223721b07262b1bfe4294308f5
+Size: 2526
+MD5sum: 656f26c38232c9f9a88d81544e13c2c8
+SHA1: 4c5ff5ad413e92f178bed43069ea8e760c77233e
+SHA256: bdc958b9863c63fc28399aa3910d3a8492fcdc9a2dbf274d1cfbc0d4231c7f47
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt. Hiện.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: Sileo Unc0ver
