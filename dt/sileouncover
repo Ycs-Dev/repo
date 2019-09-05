@@ -1,3 +1,64 @@
-{"minVersion":"0.1","headerImage":"https://raw.githubusercontent.com/hqhrepo/hqhrepo.github.io/master/image/42C81B0D-D732-4C1C-A71B-5019689D1D36.jpeg?size=1000","tintColor":"#000000","tabs":[{"tabname":"Thông tin","views":[{"title":"Hộ trợ iOS 11.0 - 12.2 and 12.4 + Unc0ver","useBoldText":true,"useBottomMargin":false,"class":"DepictionSubheaderView"},{"markdown":"Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. \n\n Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. \n\n Chạy lệnh 'SileoUnc0ver' qua SSH/Newterm hoặc MTerminal để cài đặt. \n\n Chúng tôi luôn cập nhật hệ thống liên tục  ","useSpacing":true,"class":"DepictionMarkdownView"},{"itemCornerRadius":6,"itemSize":"{160, 346.4533333333333}","screenshots":[{"accessibilityText":"Screenshot","url":"https://hqhrepo.github.io/image/uncoversileo.png?size=480","fullSizeURL":"https://hqhrepo.github.io/image/uncoversileo.png"}],"class":"DepictionScreenshotsView"},{"class":"DepictionSeparatorView"},{"title":"Phiên bản","text":"1.0","class":"DepictionTableTextView"},{"title":"Released","text":"18/05/2019","class":"DepictionTableTextView"},{"title":"Giấy phép","text":"Miễn phí","class":"DepictionTableTextView"},{"spacing":12,"class":"DepictionSpacerView"},{"spacing":0,"class":"DepictionSpacerView"}],"class":"DepictionStackView"},{"tabname":"Lịch Sử","views":[{"title":"1.0.4","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"1. Cập nhật lại toàn bộ hệ thống hoàn toàn mới.\n 2. Tình xoá 𝗦𝗶𝗹𝗲𝗼 vẫn chưa thể hoạt động ổn định.","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\"color: #999; margin-top: -8px;\">06/09/2019</small>","useRawFormat":true,"class":"DepictionMarkdownView"}, {"title":"1.0.3","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"1. Cập nhật hệ thống mới.\n 2. Cập nhật ZShell.","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\"color: #999; margin-top: -8px;\">15/08/2019</small>","useRawFormat":true,"class":"DepictionMarkdownView"}{"title":"1.0.2","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"1. Sửa lỗi không thể cập nhật 𝗦𝗶𝗹𝗲𝗼.\n2. Sửa lỗi APT1.8.","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\"color: #999; margin-top: -8px;\">01/08/2019</small>","useRawFormat":true,"class":"DepictionMarkdownView"},
-{"title":"1.0","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"Phát hành","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\"color: #999; margin-top: -8px;\">20/07/2019</small>","useRawFormat":true,"class":"DepictionMarkdownView"},
-{"class":"DepictionSeparatorView"}],"class":"DepictionStackView"}],"class":"DepictionTabView"}
+{"minVersion":"0.1","headerImage":"https://raw.githubusercontent.com/hqhrepo/hqhrepo.github.io/master/image/42C81B0D-D732-4C1C-A71B-5019689D1D36.jpeg?size=1000","tintColor":"#000000","tabs":[{"tabname":"Thông tin","views":[{"title":"Hộ trợ iOS 11.0 - 12.2 and 12.4 + Unc0ver","useBoldText":true,"useBottomMargin":false,"class":"DepictionSubheaderView"},{"markdown":"Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. \n\n Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. \n\n Chạy lệnh 'SileoUnc0ver' qua SSH/Newterm hoặc MTerminal để cài đặt. \n\n Chúng tôi luôn cập nhật hệ thống liên tục  ","useSpacing":true,"class":"DepictionMarkdownView"},{"itemCornerRadius":6,"itemSize":"{160, 346.4533333333333}","screenshots":[{"accessibilityText":"Screenshot","url":"https://hqhrepo.github.io/image/uncoversileo.png?size=480","fullSizeURL":"https://hqhrepo.github.io/image/uncoversileo.png"}],"class":"DepictionScreenshotsView"},{"class":"DepictionSeparatorView"},{"title":"Phiên bản","text":"1.0","class":"DepictionTableTextView"},{"title":"Released","text":"18/05/2019","class":"DepictionTableTextView"},{"title":"Giấy phép","text":"Miễn phí","class":"DepictionTableTextView"},{"spacing":12,"class":"DepictionSpacerView"},{"spacing":0,"class":"DepictionSpacerView"}],"class":"DepictionStackView"}
+{
+			"class":"DepictionStackView",
+			"tabname":"Lịch sử",
+			"views":[
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.0.4",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Cập nhật hệ thống hoàn toàn mới. \n2. Cập nhật hệ thống APT1.8 hoạt động ổn định hơn.",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.0.3",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"Cải thiện tính ổn định khi cài Sileo.",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.0.2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Bỏ hệ thống gói Sileo Compatibilty Layer. \n 2. Cập nhật hệ thống Sileo?1.0 và APT1.8.",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.0.1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Sủa lỗi không thể cài Tweak trên Sileo và lỗi dpkg. \n 2. Sửa lỗi hệ thống tiệp tin khi cài đặt. \n 3. Cập nhật gói Sileo Compatibilty Layer.",
+					"useSpacing":true
+				},
+				{
+				"class":"DepictionSubheaderView",
+					"title":"1.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"Phát Hành.",
+					"useSpacing":true
+				}
+			]
+		}
+	]
+}
