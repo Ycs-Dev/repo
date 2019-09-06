@@ -24,7 +24,7 @@ Suites: ./
 Components:
 
 Types: deb
-URIs: https://apt.bingner.com
+URIs: https://hqhrepo.github.io/apt
 Suites: ./
 Components:
 
