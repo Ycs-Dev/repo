@@ -27,7 +27,7 @@ Section: Packaging
 Depends: dpkg
 Size: 1533040
 Md5sum: 88667e0c19022a2e86fc68a206cf8c9c
-SHA1: 495a233bb96c88a28dfb79b2cc5f5da7ee1f68de
+SHA1: 8f4270e641e9d367ed33492ec2c1fc0f8f60ae8b
 SHA256: d910887500e151038fbe8aee2c4899e66df6a216a62281f0b9983fbc158fbd79
 Tag: purpose::extension
 Depiction: https://hqhrepo.github.io/dt/cystore
@@ -36,21 +36,21 @@ Filename:
 Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
 
-Package: com.hqhteam.sileo
-Version: 1.0.6
+Package: com.hqhteam.sileothorc0ver
+Version: 1.0.7
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
-Filename: debs/com.hqhteam.sileo_1.0.6_iphoneos-arm.deb
-Size: 2526
-MD5sum: 656f26c38232c9f9a88d81544e13c2c8
+Filename: debs/com.hqhteam.sileothorc0ver_1.0.7_iphoneos-arm.deb
+Size: 2576
+MD5sum: affc84f3d8aa292d409d09bf257a5bc5
 SHA1: 4c5ff5ad413e92f178bed43069ea8e760c77233e
-SHA256: bdc958b9863c63fc28399aa3910d3a8492fcdc9a2dbf274d1cfbc0d4231c7f47
-Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt.
+SHA256: 478b493edc5180eb2e14221487a9dda99194b61ae4b8aeb37d9c9311f5721915
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver và Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'InstallSeo' / 'RemoverSileo' qua SSH hoặc MTerminal để cài đặt.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
-Name: Sileo Unc0ver
+Name: SileoThorc0ver
 Author: HqH_Team
 
 Package: com.hqhteam.sileothor
