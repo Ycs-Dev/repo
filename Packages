@@ -37,35 +37,18 @@ Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
 
 Package: com.hqhteam.sileothorc0ver
-Version: 1.0.7-1
+Version: 1.0.8
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
-Filename: debs/com.hqhteam.sileothorc0ver_1.0.7-1_iphoneos-arm.deb
-Size: 2584
-MD5sum: 920444c2c470bd213e32d3314766fc7c
-SHA1: 1f03679a0da28dbcec5b9e81c6f23fddc864f9a0
-SHA256: b4291d490dd197392ae5bd7ff42592407deaccab10126a74d92ac577c67cb21e
+Filename: debs/com.hqhteam.sileothorc0ver_1.0.8_iphoneos-arm.deb
+Size: 2646
+MD5sum: 96fd34427ab0edc97a6d912c08b9ad2e
+SHA1: ce9319086dcf65ac6eb9c9ddecc7dbba3b9e03ac
+SHA256: cbe98b4402863d7c79d99f066291487e51bbd15739fbb0f0f7350bcf3c59198c
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver và Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'InstallSeo' / 'RemoverSileo' qua SSH hoặc MTerminal để cài đặt.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: SileoThorc0ver
-Author: HqH_Team
-
-Package: com.hqhteam.sileothor
-Version: 1.0~beta
-Section: Utilities
-Maintainer: HqH_Team
-Depends: org.swift.libswift (>=5.0), zsh, curl, wget
-Conflicts: com.thuthuatjb.sileou0
-Architecture: iphoneos-arm
-Filename: debs/com.hqhteam.sileo_1.0~beta_iphoneos-arm.deb
-Size: 2428
-MD5sum: 2e1951a8618133078c8c882becb865da
-SHA1: d061078bbb61519cad55c3794c21f53a558292b9
-SHA256: e0125f53c26686eb31aad9d90f1c73f72aec0b628ce3728d60b8468d37f2678c
-Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'SileoThor' qua SSH hoặc MTerminal để cài đặt.
-Sileodepiction: https://hqhrepo.github.io/dt/sileothor
-Name: Sileo Thor
 Author: HqH_Team
