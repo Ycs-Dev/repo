@@ -22,15 +22,37 @@ Version: 1.0.8-1
 Section: Utilities
 Maintainer: HqH_Team
 Depends: org.swift.libswift (>=5.0), zsh, curl, wget
-Conflicts: com.thuthuatjb.sileou0
+Conflicts: com.thuthuatjb.sileou0, cydia (>=1.1.32~b21)
 Architecture: iphoneos-arm
 Filename: debs/com.hqhteam.sileothorc0ver_1.0.8-1_iphoneos-arm.deb
-Size: 2650
-MD5sum: b5eb756d323d4ccf9b056f0d189c0621
-SHA1: 427a804215ffab9e9a12d21245d6f55b4edfc945
-SHA256: 03e8c42549f3e3c0fa64fecdb3681b3325d14678bff01b11f58e9cc437660cb5
-Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver và Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'InstallSeo' / 'RemoverSileo' qua SSH hoặc MTerminal để cài đặt.
+Size: 2666
+MD5sum: 663686b3f91c106ffd24af1f43c3cf76
+SHA1: 1e1e7eeb0af88c8859fc61074ee77105698de660
+SHA256: 9b183b1433dfd3bf19f85215c08e00f5d1415f83d37b8cb72bfa2fc751822816
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver và Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'InstallSileo' / 'RemoverSileo' qua SSH hoặc MTerminal để cài đặt.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: SileoThorc0ver
 Author: HqH_Team
 
+Package: cydia
+Version: 1.1.32~b21
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.32~b21_iphoneos-arm.deb
+Size: 1603974
+MD5sum: 5a3aa045bfc27b0ed37826a00bac001c
+SHA1: 70796382560a579b6a86742033a3224765799f96
+SHA256: 9cbe76e1a54e3dfb3816ee5137291e743ff42c038c424aafca85a85566d4dd16
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia (Sileo)
