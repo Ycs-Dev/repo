@@ -22,9 +22,3 @@ Types: deb
 URIs: https://hqhrepo.github.io
 Suites: ./
 Components:
-
-Types: deb
-URIs: https://hqhrepo.github.io/apt
-Suites: ./
-Components:
-
