@@ -44,10 +44,10 @@ Depends: org.swift.libswift (>=5.0), zsh, curl, wget
 Conflicts: com.thuthuatjb.sileou0
 Architecture: iphoneos-arm
 Filename: debs/com.hqhteam.sileothorc0ver_1.0.8_iphoneos-arm.deb
-Size: 2648
-MD5sum: 6c1cef1db4465f49b18e0e16050e9758
-SHA1: dd1e23d877a7a45e356f2e769aadd28b39239ab1
-SHA256: cbe98b4402863d7c79d99f066291487e51bbd15739fbb0f0f7350bcf3c59198c
+Size: 2650
+MD5sum: b5eb756d323d4ccf9b056f0d189c0621
+SHA1: 427a804215ffab9e9a12d21245d6f55b4edfc945
+SHA256: 03e8c42549f3e3c0fa64fecdb3681b3325d14678bff01b11f58e9cc437660cb5
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver và Thor được dựa trên mã nguồn mở của nhà phát triển Diatrus. Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. Chạy lệnh 'InstallSeo' / 'RemoverSileo' qua SSH hoặc MTerminal để cài đặt.
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: SileoThorc0ver
