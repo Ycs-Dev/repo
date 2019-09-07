@@ -17,25 +17,6 @@ Description: synchronize files between computers
 Name: Rsync+
 Tag: purpose::console, role::hacker
 
-Architecture: iphoneos-arm
-Package: com.ycs.cystore
-Name: CyStore
-Version: 1.0
-Description: CyStore is a very basic package manager for unlocked iOS devices.
-Author: YcS_Dev & Wilson Styres <adesign749@gmail.com>
-Section: Packaging
-Depends: dpkg
-Size: 1533040
-Md5sum: 88667e0c19022a2e86fc68a206cf8c9c
-SHA1: 8f4270e641e9d367ed33492ec2c1fc0f8f60ae8b
-SHA256: f9beafc6879a5f8abf0db695a49bd43bae8a59f4d7ee5f59ddee1767da14fbd1
-Tag: purpose::extension
-Depiction: https://hqhrepo.github.io/dt/cystore
-SileoDepiction: https://hqhrepo.github.io/dt/cystore
-Filename:
-Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
-Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
-
 Package: com.hqhteam.sileothorc0ver
 Version: 1.0.8-1
 Section: Utilities
@@ -52,3 +33,27 @@ Description: Hiện tại nhóm đã phát triển thành công công cụ cài 
 Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
 Name: SileoThorc0ver
 Author: HqH_Team
+
+Package: cydia
+Version: 1.1.32~b19
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 7712
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.32~b21_iphoneos-arm.deb
+Size: 1301510
+MD5sum: 889a4204adf1ddcf78c1ef96ee0fd6bf436aa50c
+SHA1: 889a4204adf1ddcf78c1ef96ee0fd6bf436aa50c
+SHA256: c964f2b5dd8fa93b9319f914b3a61ddefdfd24fa09891f79c96230ca19b32f45
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
