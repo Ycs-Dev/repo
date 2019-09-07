@@ -1,0 +1,12 @@
+Package: com.hqhteam.aptfix
+Priority: required
+Section: Packaging
+Maintainer: HqH_Team
+Architecture: iphoneos-arm
+Version: 1.0
+Pre-Depends: dpkg (>= 1.18)
+Replaces: apt7-lib
+Conflicts: apt7-ssl
+Provides: apt-lib
+Description: fix cho cydia mới
+Name: APT Fix
