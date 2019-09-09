@@ -3,7 +3,7 @@ Priority: required
 Section: Packaging
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Architecture: iphoneos-arm
-Version: 1.4.0b1
+Version: 1.4.2b1
 SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 Depends: org.swift.libswift, zsh
 Conflicts: cydia-gui (<<99.0)
