@@ -17,3 +17,44 @@ Description: An APT client for iOS 11 and higher. (View this package in Sileo to
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
+Package: libapt
+Version: 1.8.2-4
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 3624
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2), gnutls
+Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
+Breaks: cydia (<< 1.1.10), aptitude (<< 0.4.11.11-6), apt7-lib (<< 1:0)
+Filename: https://test.apt.bingner.com/debs/1443.00/libapt_1.8.2-4_iphoneos-arm.deb
+Size: 304486
+MD5sum: cb6a2a0a9a06f99efd074486d297d7f0
+SHA1: 0113d3fecc41218b302cfe63a56e28122a9f2d94
+SHA256: 7a4f24344915528e6bcbdc3e263932cb0aecc51f675f744b671364f467fd818f
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT (lib)
+Tag: purpose::library, role::developer
+
+Package: libapt-pkg5.0
+Version: 1.8.2-4
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 3456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, lz4, lzma, xz
+Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
+Provides: libapt-pkg (=1.8.2)
+Filename: https://test.apt.bingner.com/debs/1443.00/libapt-pkg5.0_1.8.2-4_iphoneos-arm.deb
+Size: 536414
+MD5sum: dc1093dd07bf761884505e705fd41c70
+SHA1: 1ad1f03ea0865f55db5132d062fb90ecdb6cf6c3
+SHA256: 49c845737fa60c1b25fc2ff1fb1fdc5d53c9ee229259a2570b6c77eaaaa9e3e5
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT (libapt-pkg)
+Tag: purpose::library, role::developer
