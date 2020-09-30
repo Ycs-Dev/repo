@@ -5,7 +5,7 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, com.hoahuynh.safemodelira
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 2.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
 Filename: debs/com.hoahuynh.libhookerlira_2.0_iphoneos-arm.deb
 Size: 92082
 MD5sum: DB78686B0986845247542979FCCE489C
