@@ -32,38 +32,22 @@ Description: Safe Mode app
 Author: Hòa Huỳnh
 Name: Safe Mode LiRa
 
-VersPackage: Sileo
-ion: 2.0
+Package: preferenceloader
+Version: 3.0.2
 Architecture: iphoneos-arm
-Maintainer: Hòa Huỳnh
-Depends: 
-Filename: debs/
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_3.0.2_iphoneos-arm.deb
+Size: 16744
+MD5sum: 2ce56dc9298e30faac2ee9e832a33e41
+SHA1: ba96fbd660f9f0981ddff644bffa3a63638dae1b
+SHA256: cf088765311c630c847c15b2a88b3863d34c7069a7d96c483138aa16b45c6b54
 Section: System
-Description: Sileo for LiRa Coming Soon
-Tag: role::Applications
-Author: Hòa Huỳnh
-Dev: Hòa Huỳnh
-Name: Sileo (Coming Soon)
-Sileodepiction: 
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Dev: dustinhowett
+Name: PreferenceLoader
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
 
-VersPackage: xyz.willy.zebra
-ion: 1.2
-Architecture: iphoneos-arm
-Maintainer: Wilson Styres
-Depends: 
-Filename: debs/
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 
-Section: System
-Description: Sileo for LiRa Coming Soon
-Tag: role::Applications
-Author: Wilson Styres
-Dev: Wilson Styres
-Name: Zebra(Coming Soon)
-Sileodepiction: 
+
