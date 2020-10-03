@@ -58,7 +58,7 @@ Installed-Size: 11364
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), libapt (>= 1.8.2-4), libapt-pkg5.0 (>=1.8.2-4), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), zsh | bash, cy+cpu.arm64, firmware(>=13.0) | org.swift.libswift (>=5.0)
  Conflicts: cydia (>= 2.0)
-Filename: debs/sileo-lira_2.0_iphoneos-arm.deb
+Filename: debs/
 Size: 4374704
 MD5sum: e28ba62832207fcd7b4aaf3342431075
 SHA1: 54d20cb519c18f43b8c07a6d06b172e62e6ff747
@@ -69,7 +69,7 @@ Description: A proper APT client for iOS 11 and higher. (View this package in Si
 Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Icon: https://getsileo.app/img/icon.png
-Name: Sileo LiRa
+Name: Sileo LiRa (Coming Soon)
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 
