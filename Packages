@@ -8,9 +8,9 @@ Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libho
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 2.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
 Filename: debs/com.hoahuynh.libhookerlira_2.0_iphoneos-arm.deb
 Size: 92082
-MD5sum: DB78686B0986845247542979FCCE489C
-SHA1: 28E6C73126F3A4A666E9C6E2DADF2581B24B898F
-SHA256: 66F986DD3BD231772A0E92CD44E5A19E5E84A9DC5F58A45ACA31E0BB5D6A0204
+MD5sum: db78686b0986845247542979fcce489c
+SHA1: 28e6c73126f3a4a666e9c6e2dadf2581b24b898f
+SHA256: 66f986dd3bd231772a0e92cd44e5a19e5e84a9dc5f58a45aca31e0bb5d6a0204
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
@@ -24,9 +24,9 @@ Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
 Filename: debs/com.hoahuynh.safemodelira_2.0_iphoneos-arm.deb
 Size: 75840
-MD5sum: 45C5178E00668267B42EF66E4E6AD608
-SHA1: 023CDF9FE749A67D413D6F0E55D55ED4C21A49EF
-SHA256: 887780549A882EBEAC9E7F59061E17FF6FA61D6AA557BC7029165999BA2916AA
+MD5sum: 45c5178e00668267b42ef66e4e6ad608
+SHA1: 023cdf9fe749a67d413d6f0e55d55ed4c21a49ef
+SHA256: 887780549a882ebeac9e7f59061e17ff6fa61d6aa557bc7029165999ba2916aa
 Section: System
 Description: Safe Mode app
 Author: Hòa Huỳnh
@@ -49,5 +49,27 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 Dev: dustinhowett
 Name: PreferenceLoader
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
+
+Package: sileo-lira
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Installed-Size: 11364
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), libapt (>= 1.8.2-4), libapt-pkg5.0 (>=1.8.2-4), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), zsh | bash, cy+cpu.arm64, firmware(>=13.0) | org.swift.libswift (>=5.0)
+ Conflicts: cydia (>= 2.0)
+Filename: debs/org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
+Size: 4374704
+MD5sum: e28ba62832207fcd7b4aaf3342431075
+SHA1: 54d20cb519c18f43b8c07a6d06b172e62e6ff747
+SHA256: 33e5dd05b1a61365726ec7a799dfa3c3bdf2f70f85f1b8e1afbcccdd682d362a
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo LiRa
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 
